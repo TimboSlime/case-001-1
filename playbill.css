@@ -1,0 +1,100 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url(../img/blacker-wood.webp);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.huddy{
+    text-align: center;
+    width: 9.5rem;
+    height:100% ;
+    background-color: aliceblue;
+    position: fixed;
+    margin-left: 0;
+    top: 0;
+    line-height: 35PX;
+    z-index: 99;
+}
+#promo{
+    width: 95%;
+    height: 200px;
+    padding-top: -1;
+    transition-duration:  .7s;
+    z-index: 99;
+    
+}
+.coming_soon{
+    line-height: 0px;
+    padding-bottom: 0;
+    font-size: .7rem;
+    font-style: italic;
+    
+}
+#promo:hover{
+    width: 200%;
+    height: 500px;
+    margin-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.hud{
+    color: black;
+    text-decoration: underline;
+    display: block;
+    margin-left: 0;
+    font-size: 20px;
+}
+.hud:hover{
+    color: crimson;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: min(10rem, 1rem);
+    row-gap: min(10rem, 1rem);
+    padding-left: 15vw;
+    padding-right: 6vw;
+
+}
+.pos_divs{
+    display: flex;
+    max-width: 25rem;
+}
+
+
+.poster{
+    position: relative;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px
+    
+}
+@media(max-width:700px){
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 8rem;
+        padding-right: 1rem;
+        column-gap: min(1rem,0.5rem)
+    }
+}
+@media(max-width:1050px){
+    .huddy{
+        width:7.1em ;
+    }
+    .hud{
+        font-size: 14px;
+    }
+}
+
+.poster:hover{
+    filter: brightness(70%);
+}

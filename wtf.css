@@ -1,0 +1,21 @@
+.fuck{
+    background-color: aqua;
+    max-width: 30rem;
+    margin-inline: auto;
+}
+
+.shit{
+background-color: black;
+    max-width: 30rem
+}
+.cunt{background-color: brown;
+    max-width: 30rem
+}
+img{
+    width:100%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr);
+
+}

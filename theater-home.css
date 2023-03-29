@@ -1,0 +1,117 @@
+.links{
+    display: grid;
+    grid-template-columns: 1, 1fr;
+    margin-inline: auto;
+    padding-left: 20rem
+}
+@media(max-width:1100px) {
+    .links{
+        padding-left: 10rem;
+    }
+}
+.info_div{
+    max-width: 50rem;
+
+}
+.info_div{
+    max-width: 60rem;
+
+
+}
+
+
+.huddy{
+    text-align: center;
+    width: 9.5rem;
+    height:100%;
+    background-color: aliceblue;
+    position: fixed;
+    margin-left: 0;
+    top: 0;
+    line-height: 35PX;
+}
+#promo{
+    width: 95%;
+    height: 200px;
+    padding-top: -1;
+    transition-duration:  .7s;
+    
+}
+.coming_soon{
+    line-height: 0px;
+    padding-bottom: 0;
+    font-size: .7rem;
+    font-style: italic;
+    
+}
+#promo:hover{
+    width: 200%;
+    height: 500px;
+    margin-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.hud{
+    color: black;
+    text-decoration: underline;
+    display: block;
+    margin-left: 0;
+    font-size: 20px;
+}
+.hud:hover{
+    color: crimson;
+}
+body{
+    background-image: url(../img/Untitled\ Project-1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.info{
+ width: 100%;
+  display: block;
+  margin-left: 25rem;
+  margin-top: 6rem;
+  margin-inline: auto;
+  margin-bottom: 8rem;
+}
+.info_link{
+
+}
+.contact{
+    width: 100%;
+    display: block;
+    margin-inline: auto;
+    margin-bottom: 8rem;
+    margin-right: ;
+}
+.contact_link{
+
+}
+.vrplay{
+    width: 100%;
+    display: block;
+    margin-inline: auto;
+    margin-bottom: 8rem;
+}
+.past_p{
+    width: 100%;
+    display: block;
+    margin-inline: auto;
+    margin-bottom: 2rem;
+    
+}
+.past_p_link{
+    
+}
+
+
+@media(max-width:1100px){
+    .huddy{
+        width:7.1em ;
+    }
+    .hud{
+        font-size: 14px;
+    }
+}

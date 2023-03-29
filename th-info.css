@@ -1,0 +1,193 @@
+body{
+
+    background-image: url(../img/Snapshot.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+}
+h3{
+    font-size: 2.3rem;
+    margin: 1rem;
+    color: black;
+}
+
+
+
+.nxt-aud,.nxt-aud1{
+    padding: .5rem .5rem .5rem .5rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    max-width: 50rem;
+    height: auto;
+    margin-left: 25%;
+    margin-bottom: 100px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.audi_img{
+    max-width: 80%;
+    height: auto;
+    border: 0.6rem solid black;
+}
+.bttn{
+    background-color: black;
+    border: none;
+    width: 100px;
+    text-align: center;
+    height: 30px;
+}
+
+.cast_head1{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    max-width: 50rem;
+    height: auto;
+    background-color: black;
+    margin-left: 25%;
+    padding:1.5rem  .5rem .5rem .5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+
+   
+
+}
+.cast_head{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    max-width: 50rem;
+    height: auto;
+    background-color: black;
+    margin-left: 25%;
+    padding: .5rem .5rem .5rem .5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.7rem;
+
+}
+
+.bio_text{font-size: 1.5rem; color:black;}
+
+.hh2{color: white}
+
+.abcd{display: block; 
+    font-size: 1.1rem; 
+    color:white;
+    text-decoration:none;
+    font-family: 'Times New Roman', Times, serif;
+}
+a:hover{
+    color: aqua;
+}
+.cast_crew{
+    padding: .5rem .5rem .5rem .5rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    max-width: 50rem;
+    height: auto;
+    margin-left: 25%;
+    margin-bottom: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.mom_img{
+    width: 55%;
+    border: 0.6rem solid black;
+}
+#katie_div{
+    border-top: 1rem solid black;
+    padding: .5rem .5rem .5rem .5rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    max-width: 50rem;
+    height: auto;
+    margin-left: 25%;
+    margin-bottom: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.katie_img{
+    width: 55%;
+
+    border: .6rem solid black;
+}
+#state_theater{
+    padding: .5rem .5rem .5rem .5rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    max-width: 50rem;
+    height: auto;
+    margin-left: 25%;
+    margin-bottom: 100px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.theater_img{
+    width: 80%;
+    height: auto;
+    border: .6rem solid black;
+    }
+    .phonebttn{
+        background-color: black;
+        border: none;
+        margin-bottom: 3.5px;
+        width: 135px;
+        text-align: center;
+        height: 30px;
+        vertical-align: top;
+    }
+    .phonenmbr{
+        display: block; 
+    font-size: 1rem; 
+    color:white;
+    text-decoration:none;
+    }
+    
+.huddy{
+    text-align: center;
+    width: 9.5rem;
+    height:100% ;
+    background-color: aliceblue;
+    position: fixed;
+    margin-left: 0;
+    top: 0;
+    line-height: 35PX;
+}
+#promo{
+    width: 95%;
+   
+    padding-top: -1;
+    transition-duration:  .7s;
+    
+}
+.coming_soon{
+    line-height: 0px;
+    padding-bottom: 0;
+    font-style: italic;
+    font-size: .7rem;
+}
+#promo:hover{
+    width: 200%;
+
+    margin-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.hud{
+    color: black;
+    text-decoration: underline;
+    display: block;
+    margin-left: 0;
+   font-size: 20px;
+}
+.hud:hover{
+    color: crimson;
+}
+    @media(max-width:800px){
+        .huddy{
+            width:7.1em ;
+        }
+        .hud{
+            font-size: 14px;
+        }
+    }
